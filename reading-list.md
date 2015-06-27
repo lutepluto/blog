@@ -6,4 +6,4 @@
 
 * [Javascript: The Definitive Guide](http://www.amazon.cn/JavaScript-The-Definitive-Guide-Flanagan-David/dp/0596805527/ref=sr_1_1?s=books&ie=UTF8&qid=1435031067&sr=1-1&keywords=javascript+the+definitive+guide)
 
-    ? ~ ?, currently on ***CHAPTER 9: Classes and Modules***
+    ? ~ 2015-06-27, currently on ***9.1 Classes and Prototypes***
