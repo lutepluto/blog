@@ -14,7 +14,7 @@
 
     Currently on ***9.6 Object-Oriented Techniques in JavaScript***
 
-＊ [高性能网站建设指南](http://product.dangdang.com/23698388.html)
+* [高性能网站建设指南](http://product.dangdang.com/23698388.html)
 
     2015-07-04 ~ 2015-07-04
 
