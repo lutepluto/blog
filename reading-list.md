@@ -13,3 +13,9 @@
     ? ~ 2015-07-03
 
     Currently on ***9.5 Classes and Types***
+
+＊ [高性能网站建设指南](http://product.dangdang.com/23698388.html)
+
+    2015-07-04 ~ 2015-07-04
+
+    已读完***第2章　规则2——使用内容发布网络***
