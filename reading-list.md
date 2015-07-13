@@ -12,7 +12,7 @@
 
     ? ~ 2015-07-04
 
-    Currently on ***9.6 Object-Oriented Techniques in JavaScript***
+    Currently finished ***Chapter 9 Classes and Modules***
 
 * [高性能网站建设指南](http://product.dangdang.com/23698388.html)
 
