@@ -12,7 +12,7 @@
 
     ? ~ 2015-07-04
 
-    Currently finished ***Chapter 9 Classes and Modules***
+    Currently finished ***Chapter 10 Pattern Matching with Regular Expressions***
 
 * [高性能网站建设指南](http://product.dangdang.com/23698388.html)
 
