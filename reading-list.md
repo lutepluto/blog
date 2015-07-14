@@ -12,10 +12,16 @@
 
     ? ~ 2015-07-04
 
-    Currently finished ***Chapter 10 Pattern Matching with Regular Expressions***
+    Currently finished ***11.2 Constants and Scoped Variables***
 
 * [高性能网站建设指南](http://product.dangdang.com/23698388.html)
 
     2015-07-04 ~ 2015-07-08
 
     已读完***第4章　压缩组件***
+
+* [精通AngularJS](http://www.amazon.cn/gp/product/B00OIOTTWY?psc=1&ref_=oh_aui_detailpage_o00_s00)
+
+  2015-07-13 ~ 2015-07-13
+
+  已读完***第1章 Angular之禅***
