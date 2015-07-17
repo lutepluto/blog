@@ -4,15 +4,15 @@
     
     2015-06-22 ~ 2015-06-26
 
-    Currently finished **Modular Development**
+    Finish reading **Paginating Backbone.js Requests & Collections**
 
-    Skipped ~~**Backbone Extensions**~~
+    Skipped ~~**Backbone Extensions**~~ and ~~**Exercise 3: Your First Modular Backbone + RequreJS App**~~
 
 * [Javascript: The Definitive Guide](http://www.amazon.cn/JavaScript-The-Definitive-Guide-Flanagan-David/dp/0596805527/ref=sr_1_1?s=books&ie=UTF8&qid=1435031067&sr=1-1&keywords=javascript+the+definitive+guide)
 
     ? ~ 2015-07-04
 
-    Finish reading **Chapter 11 JavaScript Subsets and Extensions**
+    Finish reading **13.3 Execution of JavaScript Programs**
 
     Skipped ~~**Chapter 12 Server-Side JavaScript**~~.
 
