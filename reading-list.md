@@ -12,7 +12,7 @@
 
     ? ~ 2015-07-04
 
-    Finish reading **Chapter 13 JavaScript in Web Browsers**
+    Finish reading **14.3 Browser History**
 
     Skipped ~~**Chapter 12 Server-Side JavaScript**~~.
 
