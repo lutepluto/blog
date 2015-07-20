@@ -4,7 +4,7 @@
     
     2015-06-22 ~ 2015-06-26
 
-    Finish reading **Paginating Backbone.js Requests & Collections**
+    Finish reading **Backbone Boilerplate And Grunt-BBB**
 
     Skipped ~~**Backbone Extensions**~~ and ~~**Exercise 3: Your First Modular Backbone + RequreJS App**~~
 
