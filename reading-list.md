@@ -12,7 +12,7 @@
 
     ? ~ 2015-07-04
 
-    Finish reading **13.3 Execution of JavaScript Programs**
+    Finish reading **Chapter 13 JavaScript in Web Browsers**
 
     Skipped ~~**Chapter 12 Server-Side JavaScript**~~.
 
