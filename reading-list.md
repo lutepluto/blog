@@ -12,7 +12,7 @@
 
     ? ~ 2015-07-04
 
-    Finish reading **14.3 Browser History**
+    Finish reading **Chapter 14 The Window Object**
 
     Skipped ~~**Chapter 12 Server-Side JavaScript**~~.
 
