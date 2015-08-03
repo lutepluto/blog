@@ -10,9 +10,9 @@
 
 * [Javascript: The Definitive Guide](http://www.amazon.cn/JavaScript-The-Definitive-Guide-Flanagan-David/dp/0596805527/ref=sr_1_1?s=books&ie=UTF8&qid=1435031067&sr=1-1&keywords=javascript+the+definitive+guide)
 
-    ? ~ 2015-07-04
+    ? ~ 2015-08-04
 
-    Finish reading **Chapter 14 The Window Object**
+    Finish reading **Chapter 15 Scripting Documents**
 
     Skipped ~~**Chapter 12 Server-Side JavaScript**~~.
 
@@ -27,3 +27,9 @@
   2015-07-13 ~ 2015-07-13
 
   已读完 **2.4 Angular模块和文件**
+
+* [Angular Official Developer Guide](https://docs.angularjs.org/guide)
+
+    2015-08-04 ~ 2015-08-04
+
+    Finished reading **Scopes**
