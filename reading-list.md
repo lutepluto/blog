@@ -12,7 +12,7 @@
 
     ? ~ 2015-08-04
 
-    Finish reading **Chapter 15 Scripting Documents**
+    Finish reading **Chapter 16 Scripting CSS**
 
     Skipped ~~**Chapter 12 Server-Side JavaScript**~~.
 
@@ -32,4 +32,4 @@
 
     2015-08-04 ~ 2015-08-04
 
-    Finished reading **Scopes**
+    Finished reading **Expressions**
