@@ -38,7 +38,7 @@
 
 ##### 包（Package）
 
-紧接头注释的是包声明，然后是引入声明。包名应为反向域名（reverse domain）式，包声明语句不能换行，[行宽的规则](#line-lengthcolumn-limit)不适用于包声明语句。
+紧接头注释的是包声明，然后是引入声明。包名应为反向域名（reverse domain）式，包声明语句不能换行，[行宽的规则](#user-content-行宽line-lengthcolumn-limit)不适用于包声明语句。
 
 ```java
 package com.demo2do.abc.xyz
@@ -205,6 +205,12 @@ if(foo > 1) {
 #### 文档注释（Documentation Comments）
 
 See [文档（ Javadoc）](#user-content-文档javadoc)
+
+#### IDE注释关键字
+
+值得一提的是IDE，如Eclipse，提供了默认注释关键如`TODO`，`FIXME`，也提供了自定义注释关键字的功能。
+
+See [IDE comment keywords](http://stackoverflow.com/questions/9586478/ide-comment-keywords)
 
 ### 空格（Whitespace）
 
