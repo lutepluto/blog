@@ -147,6 +147,65 @@ alpha = aLongBooleanExpression ?
 
 ### 注释（Comments）
 
+Java中有两类注释，实现注释（implementation comments）和文档注释（documentation comments）。实现注释是C／C++风格的注释，为`//...`和`/*...*/`。文档注释是Java独有的，为`/**...*/`。可以使用javadoc工具将文档注释提取出来生成相应的javadoc。
+
+#### 实现注释（Implementation Comments）
+
+大致可分为3类实现注释：块注释，单行注释，行尾注释。
+
+##### 块注释
+
+块注释用以描述文件，类，方法或是算法。块注释可以被用在类开头或和方法开头，也可以用在方法内。在方法内的块注释应与它描述的代码有一样的缩进。
+
+块注释之前应该有一个空行来把注释和其他代码分隔开。
+
+```java
+
+/*
+ * Here is a block comment
+ */
+```
+
+##### 单行注释
+
+单行注释可以注释一整行或者一整行的一部分。多行连续的文字注释应该使用块注释而不是单行注释，但是单行注释确可以用来注释多行连续的代码。
+
+单行注释之前应该有一个空行
+
+```java
+if(foo > 1) {
+  
+    // Do something...
+} else {
+
+    // Do something else...
+}
+
+// if(bar > 1) {
+// 
+//     // Do something... 
+// } else {
+//
+//     // Do something else...
+// }
+```
+
+##### 行尾注释
+
+和代码在同一行，在代码的行尾的非常简短的注释。行尾注释应该离代码有一定的距离（至少4个空格）以便区分代码语句。如果在一段代码中有多个行尾注释，则这些行尾注释应该有一样的缩进。
+
+```java
+if(foo > 1) {
+  return true;     // case 1
+} else {
+  return false;    // case 2
+}
+```
+
+#### 文档注释（Documentation Comments）
+
+See [文档（ Javadoc）](#user-content-文档javadoc)
+
 ### 空格（Whitespace）
 
 ### 括号（Braces）
@@ -159,7 +218,7 @@ alpha = aLongBooleanExpression ?
 
 ## 编程实践（Programming Practices）
 
-## 文档（JavaDoc）
+## 文档（Javadoc）
 
 ## 参考链接
 
