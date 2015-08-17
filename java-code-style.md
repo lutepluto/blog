@@ -15,12 +15,12 @@
 一个完整的java源文件包含以下组成部分，依次是：
 
 - 头注释（Beginning Comments）
-- 包（Package）和引用（Import）声明语句
+- 包（Package）和引入（Import）声明语句
 - 类（Class）或接口（Interface）声明
 
 #### 头注释（Beginning Comments）
 
-所有的源代码文件都会以一个C语言风格的注释开始，这里面包含了类名／文件名（class name），版本信息（version information），日期（date），版权或许可协议信息（copyright notice or licence）。
+所有的源代码文件都会以一个C语言风格的注释开始，这里面可包含类名／文件名（class name），版本信息（version information），日期（date），版权或许可协议信息（copyright notice or licence）。
 
 ```
 /**
@@ -38,7 +38,7 @@
 
 ##### 包（Package）
 
-紧接头注释的是包声明，然后是引入声明。包名应为反向域名（reverse domain）式，包声明语句不能换行，行宽的规则不适用于包声明语句。
+紧接头注释的是包声明，然后是引入声明。包名应为反向域名（reverse domain）式，包声明语句不能换行，[行宽的规则](#line-lengthcolumn-limit)不适用于包声明语句。
 
 ```java
 package com.demo2do.abc.xyz
@@ -96,39 +96,49 @@ package com.demo2do.abc.xyz
 换行时，每一行至少相对于初始行缩进至少4个空格。如果有多行连续的换行，则缩进可能不仅仅有4个空格。行个连续的换行如果有相同的缩进，则表明他们是在同一语法层级上的（syntatically parallel）。
 
 ```java
-// bad
-// line break before comma
+// Bad
+// Line break before comma
 someMethod(longExpression1, longExpression2
     ,longExpression3)
 
-// good
-// line break after comma,
+// Good
+// Line break after comma,
 // but lines with the same syntactic level do not align
 someMethod(longExpression1, longExpression2,
     longExpression3)
 
-// better
+// Better
 someMethod(longExpression1, longExpression2,
            longExpression3)
+
+// Bad
+// Conventional indentation, causing a deep indents
+private static synchronized aFuckingVeryLongLongLongLongLongLongMethodName(int anArg, String anotherArg,
+                                                                           Object thirdArg)
+
+// Good
+// Avoid deep indents
+private static synchronized aFuckingVeryLongLongLongLongLongLongMethodName(int anArg, String anotherArg,
+    Object thirdArg)
 ```
 
 ```java
-// bad
-// line break exists in an arithmetic expression
+// Bad
+// Line break exists in an arithmetic expression
 // but inside the parenthesized expression, which has a higher syntactic level
 longName1 = longName2 * (longName3 + longName4
           - longName5) + 4 * longName6
 
-// good
+// Good
 longName1 = longName2 * (longName3 + longName4 - longName5)
           + 4 * longName6
 ```
 
 ```java
-// good
+// Good
 alpha = aLongBooleanExpression ? beta : gamma;
 
-// preferred
+// Preferred
 alpha = aLongBooleanExpression ?
             betaLongBooleanExpression :
             gammaLongBooleanExpression;
