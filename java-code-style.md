@@ -192,14 +192,16 @@ if(foo > 1) {
 
 ##### 行尾注释
 
-和代码在同一行，在代码的行尾的非常简短的注释。行尾注释应该离代码有一定的距离（至少4个空格）以便区分代码语句。如果在一段代码中有多个行尾注释，则这些行尾注释应该有一样的缩进。
+和代码在同一行，在代码的行尾的非常简短的注释。行尾注释应该离代码有一定的距离（至少1个空格）以便区分代码语句。
+
+如果在一段代码中有多个行尾注释，多行的行尾注释并不一定需要纵向对齐。
 
 ```java
-if(foo > 1) {
-  return true;     // case 1
-} else {
-  return false;    // case 2
-}
+private int x; // this is fine
+private Color color; // this too
+
+private int x;       // permitted, but future edits
+private Color color; // may leave it unaligned
 ```
 
 #### 文档注释（Documentation Comments）
@@ -213,6 +215,85 @@ See [文档（ Javadoc）](#user-content-文档javadoc)
 See [IDE comment keywords](http://stackoverflow.com/questions/9586478/ide-comment-keywords)
 
 ### 空格（Whitespace）
+
+#### 空行（Blank Lines）
+
+空行使得逻辑相关的代码被分隔成不同的部分，从而能够提高代码的可读性。在下列情形中应该出现单行空行：
+
+- 两个方法之间
+- 在[块注释](#user-content-块注释)和[单行注释](#user-content-单行注释)之前
+- 在类成员之间：属性，构造方法，方法，内部类，静态初始块
+- 在方法内部的逻辑相关的代码片段之间
+- 在类的第一个成员之前活着最后一个成员之后
+
+#### 空格（Blank Spaces）
+
+下列情形中应该使用空格：
+
+- 分隔关键字，如`if`，`for`，`whilte`，`catch`，和之后的左圆括号
+  
+  ```java
+  while (true) {
+      // ...
+  }
+  ```
+
+  需要注意的是方法名和它后面的左圆括号之间不应有空格。
+
+- 分隔关键字，如`else`，`catch`，和之前的右花括号
+
+  ```java
+  if (condition) {
+      // ...
+  } else {
+      // ...
+  }
+  ```
+
+- 在所有左花括号之前
+
+  ```java
+  try {
+      // ...
+  } catch (Exception e) {
+    // ...
+  }
+  ```
+
+- 在方法的参数列表里，逗号`,`之后应该有一个空格
+- 在任意二元（除了`.`运算符）或三元运算符的左右两边都应有空格，任意一元运算符和操作数之间不应有空格
+
+  ```java
+  // unary operators
+  while (d++ = s++) {
+      n++;
+  }
+
+  // binary operators
+  a += b + c;
+  a = (a + b) / (c * d);
+
+  // ternary operator
+  a ? b = 1 : c = 1;
+  ```
+
+- 在`,`，`:`，`;`之后应有一个空格
+
+  ```java
+  for(expression1; expression2; expression3) {
+      // ...
+  }
+
+  new int[] {1, 2, 3};
+  ```
+
+- 强制转换的右圆括号之后应该有一个空格
+
+  ```java
+  String a = (String) map.get('string');
+  ```
+
+- 在单行注释的双斜杠（//）之后应该有一个空格
 
 ### 括号（Braces）
 
