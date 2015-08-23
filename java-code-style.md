@@ -22,7 +22,7 @@
 
 所有的源代码文件都会以一个C语言风格的注释开始，这里面可包含类名／文件名（class name），版本信息（version information），日期（date），版权或许可协议信息（copyright notice or licence）。
 
-```
+```java
 /**
  * Classname
  *
@@ -295,7 +295,34 @@ See [IDE comment keywords](http://stackoverflow.com/questions/9586478/ide-commen
 
 - 在单行注释的双斜杠（//）之后应该有一个空格
 
-### 括号（Braces）
+### 花括号／大括号（Braces）
+
+#### 可省略的花括号
+
+在`if`，`else`，｀for｀，`do`，`while`语句中，当它们的代码块是空或者只有一条代码语句的时候，花括号是可省略的。
+
+#### 非空的语句块：K&R Style
+
+在Kernighan and Ritchie风格(“[Egyptian brackets](http://www.codinghorror.com/blog/2012/07/new-programming-jargon.html)”)的语句块后面要跟上花括号。
+
++ 左花括号之前不换行
++ 左花括号之后换行
++ 右花括号之前换行
++ 如果右花括号结束一条语句，方法体，构造函数或具名类，则右花括号之后换行。如果右花括号后面接着`else`或者逗号，则右花括号之后不换行。
+
+```java
+return new MyClass() {
+    @Override public void method() {
+        if (condition()) {
+            try {
+              something();
+            } catch (ProblemException e) {
+              recover();
+            }
+        }
+    }
+};
+```
 
 ## 声明（Declaration）
 
