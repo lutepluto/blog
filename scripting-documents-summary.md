@@ -3,7 +3,9 @@
 ## Table of Contents
 
 [Overview](#user-content-overview)
+
 [Selecting Document Elements](#user-content-selecting-document-elements)
+
 [Document Structure and Traversal](#user-content-document-structure-and-traversal)
 
 ## Overview
