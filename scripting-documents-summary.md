@@ -2,11 +2,9 @@
 
 ## Table of Contents
 
-[Overview](#user-content-overview)
-
-[Selecting Document Elements](#user-content-selecting-document-elements)
-
-[Document Structure and Traversal](#user-content-document-structure-and-traversal)
+* [Overview](#user-content-overview)
+* [Selecting Document Elements](#user-content-selecting-document-elements)
+* [Document Structure and Traversal](#user-content-document-structure-and-traversal)
 
 ## Overview
 
@@ -91,7 +89,7 @@ DOM提供5种基本的方式来选择（获取）DOM元素：
 
 Node object defines following important properties:
 
-property |
+property | |
 :--- | ---
 parentNode | The node that is the parent of this one, or null for nodes like the Document objects that have no parent. |
 childNodes | A read-only array-like object(a NodeList) that is a live representation of a Node's child nodes. |
@@ -105,7 +103,7 @@ nodeName | The tag name of an Element, converted to uppercase. [See detail here.
 
 Not interested in Elements of a document instead of the text within them(and the whitespace between them). Ignoring Text and Comment node.
 
-property |
+property | |
 :--- | ---
 Element.children | Like childNodes, this is a NodeList. Unlike childNodes, the **children** contains only Element objects. Note that Text and Comment nodes cannot have children, which means that node.parentNode never returns a Text or Comment node. The parentNode of any Element will always be another Element, or, at the root of the tree, a Document or DocumentFragment.
 firstElementChild, lastElmentChild | Like firstChild and lastChild, but for Element children only
