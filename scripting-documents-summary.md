@@ -1,12 +1,18 @@
 # [Javascript: The Definitive Guide](http://www.amazon.cn/JavaScript-The-Definitive-Guide-Flanagan-David/dp/0596805527/ref=sr_1_1?s=books&ie=UTF8&qid=1435031067&sr=1-1&keywords=javascript+the+definitive+guide)， Chapter 15 Scripting Documents
 
+## Table of Contents
+
+[Overview](#user-content-overview)
+[Selecting Document Elements](#user-content-selecting-document-elements)
+[Document Structure and Traversal](#user-content-document-structure-and-traversal)
+
 ## Overview
 
 DOM是由很多不同节点（[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)）组成的。Node是一个顶级接口，其他很多DOM接口都继承于它，包括[Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)，[Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)，[CharacterData](https://developer.mozilla.org/en-US/docs/Web/API/CharacterData)（CharacterData是表示文字的节点，[Text](https://developer.mozilla.org/en-US/docs/Web/API/Text)，[Comment](https://developer.mozilla.org/en-US/docs/Web/API/Comment)，[CDATASection](https://developer.mozilla.org/en-US/docs/Web/API/CDATASection)都实现了CharacterData接口），[DocumentFragment](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment)等。
 
 	![Partial Hierarchy of Document Nodes](images/partial-hierarchy-of-dom-nodes.png)
 	
-## 选择Document Element
+## Selecting Document Elements
 
 DOM提供5种基本的方式来选择（获取）DOM元素：
 
