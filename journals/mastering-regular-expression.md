@@ -6,13 +6,13 @@
 
 - doubled-word dection
 - 确认大量文件中所有的 ‘SetSize’ 都包含在 'ResetSize' 当中
-- 打印邮件服务器的所有邮件中某一行 `^(From|Subject):`
+- 打印邮件服务器的所有邮件中某一行 `^(From|Subject):`
 
 ### 正则表达式是一门语言
 
 Linux shell 中经常使用到的通配符（wildcard），如：`*.txt`。
 
-正则表达式由 metacharacters 和 literal 组成。就像语言学习一样，一个从没有学习过日语的人是完全无法理解看到的日语。一个对正则表达式没有人经验的人，在看到一段正则表达式的时候也无法理解它所表达的含义。作者鼓励读者一切都会随着学习的深入明确清晰起来。这里还举了一个 Perl 查找 IP 的例子
+正则表达式由 metacharacters 和 literal 组成。就像语言学习一样，一个从没有学习过日语的人是完全无法理解看到的日语。一个对正则表达式没有人经验的人，在看到一段正则表达式的时候也无法理解它所表达的含义。作者鼓励读者一切都会随着学习的深入明确清晰起来。这里还举了一个 Perl 查找 IP 的例子
 
 ```Perl
 s!<emphasis>([0-9]+(\.[0-9]+){3})</emphasis>!<inet>$1</inet>
@@ -48,13 +48,13 @@ escaped character | `\char` | when char is a metacharacter, or the escaped combi
 
 HTTP/HTML URL `\<http://[-a-z0-9_.:]+/[-a-z0-9_:@&?=+,.!/~*%$]*\.html?\>`
 
-HTML 标签 `<.*>` 但是会匹配到不止一个标签元素，如 `<i>short</i>`
+HTML 标签 `<.*>` 但是会匹配到不止一个标签元素，如 `<i>short</i>`
 
 时间，12小时制 `(1[012]|[1-9]):[0-5][0-9]` ，24小时制 `(2[0-3]|[01]?[0-9]):[0-5][0-9]`
 
 ## Extended Introductory Examples
 
-先介绍了一些 Perl 的简要语法。然后举了一些正则的匹配字符的例子，摄氏度和华氏度转化：
+先介绍了一些 Perl 的简要语法。然后举了一些正则的匹配字符的例子，摄氏度和华氏度转化：
 ```Perl
     $input =~ m/^([-+]?[0-9]+)([CF])$/
 ```
@@ -69,7 +69,7 @@ HTML 标签 `<.*>` 但是会匹配到不止一个标签元素，如 `<i>short</
     $input =~ m/^([-+]?[0-9]+(\.[0-9]*)?)\s*([CF])/i
 ```
 
-同 Perl 一样，其他语言／工具普遍支持的简写形式（shorthand）：
+同 Perl 一样，其他语言／工具普遍支持的简写形式（shorthand）：
 
 
 shorthand | description
@@ -77,7 +77,7 @@ shorthand | description
 \t | tab
 \n | newline
 \r | carriage-return
-\s | whitespace(space, tab, newline, formfeed and such)
+\s | whitespace(space, tab, newline, formfeed and such)
 \w | [a-zA-Z0-9_]
 \W | anything not \w, i.e., [^a-zA-Z0-9_]
 \d | [0-9], i.e., digit
@@ -124,7 +124,7 @@ $text =~ s/>/&gt;/g;
 $text =~ s/^\s*$/<p>/mg
 ```
 
-#### 邮箱转为链接
+#### 邮箱转为链接
 
 ```Perl
 $text =~ s/\b(username regex\@hostname regex)\b/<a href="mailto:$1">$1<\/a>/g;
